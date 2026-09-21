@@ -4,7 +4,7 @@
   "description": "AI Capsule - Cloud-Deployed AI Prompt Manager (React + Node/Express + OAuth + JWT)",
   "private": true,
   "scripts": {
-    "install:all": "npm install --prefix server && npm install --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client --include=dev",
     "dev:server": "npm run dev --prefix server",
     "dev:client": "npm run dev --prefix client",
     "build": "npm run build --prefix client",
