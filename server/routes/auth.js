@@ -2,7 +2,7 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 const router = express.Router();
 
-const APP_BASE_URL = process.env.APP_BASE_URL || "http://localhost:5000";
+const APP_BASE_URL = process.env.APP_BASE_URL;
 const isProd = process.env.NODE_ENV === "production";
 
 // Cookie options shared by every place that sets/clears the "token" cookie.
